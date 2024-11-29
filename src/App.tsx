@@ -6,7 +6,7 @@ function App() {
     const [currentDifficulty, setCurrentDifficulty] = useState<Difficulties | null>(null);
 
     if (!currentDifficulty) {
-        return <DifficultyModal />;
+        return <DifficultyModal setDifficulty={setCurrentDifficulty}/>;
     }
 
     return <div className="app"></div>;
