@@ -1,3 +1,27 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #174632;
+    background-image: radial-gradient(rgba(255, 255, 255, 0.1) 8%, transparent 8%),
+    radial-gradient(rgba(255, 255, 255, 0.1) 8%, transparent 8%);
+    background-position: 0 0, 10px 10px;
+    background-size: 20px 20px;
+}
+
+.app {
+    min-height: 100vh;
+    flex-grow: 1;
+}
+
+
