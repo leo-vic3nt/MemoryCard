@@ -8,7 +8,7 @@ interface Props {
 
 function DifficultyModal({ setDifficulty }: Props) {
     return (
-        <div className="fixed inset-0 z-10 flex w-full items-center justify-center bg-opacity-30 bg-black">
+        <div className="fixed inset-0 z-10 flex w-full items-center justify-center bg-opacity-80 bg-black">
             <ModalCard>
                 <DifficultyPicker setDifficulty={setDifficulty} />
             </ModalCard>
