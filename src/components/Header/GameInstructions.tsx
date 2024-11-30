@@ -27,9 +27,15 @@ function GameInstructions() {
                             </li>
                             <li>
                                 <strong>Win Conditions</strong>
-                                <li>- Easy: 5 unique picks</li>
-                                <li>- Normal: 10 unique picks</li>
-                                <li>- Hard: 15 unique picks</li>
+                                <li>
+                                    - <strong>Easy: </strong>5 unique picks
+                                </li>
+                                <li>
+                                    - <strong>Normal: </strong>10 unique picks
+                                </li>
+                                <li>
+                                    - <strong>Hard: </strong> 15 unique picks
+                                </li>
                             </li>
                             <li>
                                 <strong>Lose Condition</strong>: Select any card you've already chosen

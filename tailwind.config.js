@@ -3,6 +3,10 @@ export default {
     darkMode: ['class'],
     content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
     theme: {
+        fontFamily: {
+            opensans: 'Open Sans, sans-serif',
+            bungee: 'Bungee, sans-serif',
+        },
         extend: {
             borderRadius: {
                 lg: 'var(--radius)',

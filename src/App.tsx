@@ -7,7 +7,7 @@ function App() {
     const [currentDifficulty, setCurrentDifficulty] = useState<Difficulties | null>(null);
 
     return (
-        <div className="flex-grow flex flex-col p-2">
+        <div className="flex flex-grow flex-col p-2 font-opensans">
             <Header />
             {currentDifficulty ? null : <DifficultyModal setDifficulty={setCurrentDifficulty} />}
         </div>
