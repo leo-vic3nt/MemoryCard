@@ -12,11 +12,15 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    background-color: #174632;
+    background-color: #176032;
     background-image: radial-gradient(rgba(255, 255, 255, 0.1) 8%, transparent 8%),
     radial-gradient(rgba(255, 255, 255, 0.1) 8%, transparent 8%);
     background-position: 0 0, 10px 10px;
     background-size: 20px 20px;
+
+    font-family: "Parkinsans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
 
 .app {
@@ -25,7 +29,7 @@ body {
 }
 
 @layer base {
-  :root {
+    :root {
         --background: 0 0% 100%;
         --foreground: 240 10% 3.9%;
         --card: 0 0% 100%;
@@ -52,7 +56,8 @@ body {
         --chart-5: 27 87% 67%;
         --radius: 0.5rem;
     }
-  .dark {
+
+    .dark {
         --background: 240 10% 3.9%;
         --foreground: 0 0% 98%;
         --card: 240 10% 3.9%;
@@ -81,11 +86,12 @@ body {
 }
 
 @layer base {
-  * {
-    @apply border-border;
+    * {
+        @apply border-border;
     }
-  body {
-    @apply bg-background text-foreground;
+
+    body {
+        @apply bg-background text-foreground;
     }
 }
 
