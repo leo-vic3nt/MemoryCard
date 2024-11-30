@@ -18,7 +18,7 @@ function GameInstructions() {
             </AlertDialogTrigger>
             <AlertDialogContent className="bg-green-900">
                 <AlertDialogHeader>
-                    <AlertDialogTitle className="font-bold text-white">Game instructions</AlertDialogTitle>
+                    <AlertDialogTitle className="text-2xl font-bold text-white">Game instructions</AlertDialogTitle>
                     <AlertDialogDescription className="flex flex-col gap-1 font-semibold text-slate-200">
                         <ul className="flex flex-col gap-3 pl-5">
                             <li>

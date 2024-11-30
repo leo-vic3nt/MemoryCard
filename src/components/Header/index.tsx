@@ -3,13 +3,13 @@ import GameInstructions from '@/components/Header/GameInstructions.tsx';
 
 function Header() {
     return (
-        <div className="flex items-center justify-center font-bungee">
+        <div className="font-bungee mt-1 flex items-center justify-center">
             <div className="flex items-center gap-2">
-                <img className="-rotate-12" src={cardsPng} alt="cards" />
+                <img className="size-12 -rotate-12 lg:size-20" src={cardsPng} alt="cards" />
                 <h1 className="text-4xl text-white lg:text-7xl">Memory Card</h1>
-                <img className="rotate-12 -scale-x-100" src={cardsPng} alt="cards" />
+                <img className="size-12 rotate-12 -scale-x-100 lg:size-20" src={cardsPng} alt="cards" />
             </div>
-           <GameInstructions/>
+            <GameInstructions />
         </div>
     );
 }
