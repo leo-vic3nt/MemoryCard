@@ -23,10 +23,6 @@ body {
     font-style: normal;
 }
 
-.app {
-    min-height: 100vh;
-    flex-grow: 1;
-}
 
 @layer base {
     :root {
