@@ -3,7 +3,7 @@ interface CardImages {
     png: string;
 }
 
-interface Card {
+interface ICard {
     code: string;
     images: CardImages;
     value: string;
@@ -12,7 +12,7 @@ interface Card {
 
 interface DeckFetchResponse {
     deck_id: string;
-    cards: Card[];
+    cards: ICard[];
 }
 
 const enum Difficulties {
@@ -22,4 +22,4 @@ const enum Difficulties {
 }
 
 export { Difficulties };
-export type { DeckFetchResponse, Card };
+export type { DeckFetchResponse, ICard };

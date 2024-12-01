@@ -7,7 +7,7 @@ interface Props {
 
 function ErrorCard({ errorMessage }: Props) {
     return (
-        <div className="fixed inset-0 z-10 flex w-full items-center justify-center bg-black bg-opacity-80">
+        <div className="fixed inset-0 z-20 flex w-full items-center justify-center bg-black bg-opacity-80">
             <Card className="w-1/2 min-w-72 max-w-[600px] border-2 border-slate-200 bg-green-900 text-center text-white">
                 <CardHeader>
                     <CardTitle>{errorMessage} 😥</CardTitle>
