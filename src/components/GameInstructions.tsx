@@ -8,7 +8,7 @@ import {
     AlertDialogHeader,
     AlertDialogTitle,
     AlertDialogTrigger,
-} from '@/components/ui/alert-dialog';
+} from '@/components/ui/alert-dialog.tsx';
 
 function GameInstructions() {
     return (
@@ -18,8 +18,11 @@ function GameInstructions() {
             </AlertDialogTrigger>
             <AlertDialogContent className="bg-green-900">
                 <AlertDialogHeader>
-                    <AlertDialogTitle className="text-2xl font-bold text-white">Game instructions</AlertDialogTitle>
-                    <AlertDialogDescription className="flex flex-col gap-1 font-semibold text-slate-200">
+                    <AlertDialogTitle className="text-center text-2xl font-bold text-white">
+                        Game instructions
+                    </AlertDialogTitle>
+                    <AlertDialogDescription></AlertDialogDescription>
+                    <div className="flex flex-col gap-1 font-semibold text-slate-200">
                         <ul className="flex flex-col gap-3 pl-5">
                             <li>
                                 <strong>Goal</strong>: Remember and select unique cards{' '}
@@ -27,21 +30,23 @@ function GameInstructions() {
                             </li>
                             <li>
                                 <strong>Win Conditions</strong>
-                                <li>
-                                    - <strong>Easy: </strong>5 unique picks
-                                </li>
-                                <li>
-                                    - <strong>Normal: </strong>10 unique picks
-                                </li>
-                                <li>
-                                    - <strong>Hard: </strong> 15 unique picks
-                                </li>
+                                <ul>
+                                    <li>
+                                        - <strong>Easy: </strong>5 unique picks
+                                    </li>
+                                    <li>
+                                        - <strong>Normal: </strong>10 unique picks
+                                    </li>
+                                    <li>
+                                        - <strong>Hard: </strong> 15 unique picks
+                                    </li>
+                                </ul>
                             </li>
                             <li>
                                 <strong>Lose Condition</strong>: Select any card you've already chosen
                             </li>
                         </ul>
-                    </AlertDialogDescription>
+                    </div>
                 </AlertDialogHeader>
                 <AlertDialogFooter>
                     <AlertDialogAction className="bg-white text-black hover:text-white hover:opacity-80">

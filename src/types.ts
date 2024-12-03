@@ -1,11 +1,5 @@
-interface CardImages {
-    svg: string;
-    png: string;
-}
-
 interface ICard {
     code: string;
-    images: CardImages;
     value: string;
     suit: string;
 }
@@ -21,5 +15,11 @@ const enum Difficulties {
     hard = 'hard',
 }
 
-export { Difficulties };
+const enum GameOutcomes {
+    win = 'win',
+    loss = 'loss',
+
+}
+
+export { Difficulties, GameOutcomes };
 export type { DeckFetchResponse, ICard };
