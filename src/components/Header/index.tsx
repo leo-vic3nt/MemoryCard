@@ -1,5 +1,5 @@
 import cardsPng from '/playing-cards.png';
-import GameInstructions from '@/components/GameInstructions.tsx';
+import GameInstructions from '@/components/Header/GameInstructions.tsx';
 
 function Header() {
     return (
