@@ -2,11 +2,9 @@
 
 Memory Card is a card-matching game built with TypeScript, React, and Tailwind CSS. 
 It was made as part of the [Odin Project](https://www.theodinproject.com/) curriculum
-
+[Live demo](https://memorycard-24j.pages.dev/)
 
 ![Print of running project](https://i.imgur.com/het0sBj.png)
-
-[Live demo](https://memorycard-24j.pages.dev/)
 
 ## Features
 
